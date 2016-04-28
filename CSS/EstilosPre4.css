@@ -7,7 +7,7 @@ h5~p{
 }
 /*selector adyacente*/
 
-h3+h5{
+h6+h5{
     color: blueviolet;
     background: yellow;
 }
