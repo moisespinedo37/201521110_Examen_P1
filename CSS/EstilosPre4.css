@@ -1,6 +1,21 @@
 
+/* selector general*/
 
-body~h1{
+h5~p{
     color:#9f2295;
-    background: #42c656
+    background: #04f8ef;
+}
+/*selector adyacente*/
+
+h3+h5{
+    color: blueviolet;
+    background: yellow;
+}
+
+/* selector hijo
+*/
+
+body>h2{
+    color:violet;
+    background: green;
 }
