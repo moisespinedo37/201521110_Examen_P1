@@ -6,11 +6,59 @@
     <link rel="stylesheet" href="../CSS/EstilosPre5.css">
 </head>
 <body>
-<h1>CREANDO MI HTML APLICANDO MI ATRIBUTO CONTIENE, ATRIBUTO COMIENZA Y ATRIBUTO DE UNA LISTA DE VALORES SEPARADAS POR ESPACIO..</h1>
+<p class="titulo"></p>
+<h6>Los selectores de atributo seleccionan un elemento usando un atributo especificado o el valor del mismo. Selecciona los elementos que tienen el atributo atrib . Selecciona los elementos cuyo atributo atrib tenga exactamente el valor valsass
+Definiciones web
+
+CREANDO MI HTML APLICANDO MI ATRIBUTO CONTIENE, ATRIBUTO COMIENZA Y ATRIBUTO DE UNA LISTA DE VALORES SEPARADAS POR ESPACIO..
+</h6>
 
 <p>crear un repositorio con git donde se guardan las respuestas del examen desde la pregunta cuatro hasta la seis. crear un archivo por cada pregunta.se realizara minimo 30 commits y se compartirá el repositorio con el docente.
 crear un repositorio con git donde se guardan las respuestas del examen desde la pregunta cuatro hasta la seis. crear un archivo por cada pregunta.se realizara minimo 30 commits y se compartirá el repositorio con el docente.
-crear un repositorio con git donde se guardan las respuestas del examen desde la pregunta cuatro hasta la seis. crear un archivo por cada pregunta.se realizara minimo 30 commits y se compartirá el repositorio con el docente.</p>
+crear un repositorio con git donde se guardan las respuestas del examen desde la pregunta cuatro hasta la seis. crear un archivo por cada pregunta.se realizara minimo 30 commits y se compartirá el repositorio con el docente.
+
+
+
+
+
+
+
+
+
+
+Los cuatro tipos de selectores de atributos son:
+
+[nombre_atributo], selecciona los elementos que tienen establecido el atributo llamado nombre_atributo, independientemente de su valor.
+[nombre_atributo=valor], selecciona los elementos que tienen establecido un atributo llamado nombre_atributo con un valor igual a valor.
+[nombre_atributo~=valor], selecciona los elementos que tienen establecido un atributo llamado nombre_atributo y cuyo valor es una lista de palabras separadas por espacios en blanco en la que al menos una de ellas es exactamente igual a valor.
+[nombre_atributo|=valor], selecciona los elementos que tienen establecido un atributo llamado nombre_atributo y cuyo valor es una serie de palabras separadas con guiones, pero que comienza con valor. Este tipo de selector sólo es útil para los atributos de tipo lang que indican el idioma del contenido del elemento.
+A continuación se muestran algunos ejemplos de estos tipos de selectores:
+
+/* Se muestran de color azul todos los enlaces que tengan
+   un atributo "class", independientemente de su valor */
+a[class] { color: blue; }
+
+/* Se muestran de color azul todos los enlaces que tengan
+   un atributo "class" con el valor "externo" */
+a[class="externo"] { color: blue; }
+
+/* Se muestran de color azul todos los enlaces que apunten
+   al sitio "http://www.ejemplo.com" */
+a[href="http://www.ejemplo.com"] { color: blue; }
+
+/* Se muestran de color azul todos los enlaces que tengan
+   un atributo "class" en el que al menos uno de sus valores
+   sea "externo" */
+a[class~="externo"] { color: blue; }
+
+/* Selecciona todos los elementos de la página cuyo atributo
+   "lang" sea igual a "en", es decir, todos los elementos en inglés */
+*[lang=en] { ... }
+
+/* Selecciona todos los elementos de la página cuyo atributo
+   "lang" empiece por "es", es decir, "es", "es-ES", "es-AR", etc. */
+*[lang|="es"] { color : red }
+Anterior</p>
 
 
 
